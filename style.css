@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+.header {
+    background-color: #ab183d;
+    text-align: center;
+    height: 195px;
+    width: 1010px;
+    margin: 10px auto;
+    color: white;
+}
+
+.header img {
+    float: left;
+    padding: 20px;
+}
+
+.header h1 {
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: black;
+    height: 50px;
+    width: 1010px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.navicon a {
+    color: white;
+    text-decoration: none;
+}
+
+.navicon a:hover {
+    color: blue;
+}
+
+.para {
+    margin: 30px auto;
+}
+
+.marq {
+    height: 95px;
+    width: 1010px;
+    margin: 20px auto;
+    color: blue;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.marq:hover {
+    cursor: pointer;
+}
+
+.mainbox {
+    height: 180px;
+    width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mainsub {
+    width: 200px;
+    height: 60px;
+    background-color: aqua;
+    margin: 2px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+.mainsub a {
+    text-decoration: none;
+    color: white;
+}
+
+.tablecontent {
+    width: 300px;
+    height: 700px;
+    border: 2px solid orange;
+    margin: 40px 10px;
+}
+
+.tablecontent h2 {
+    color: white;
+    background-color: #ab183d;
+    text-align: center;
+}
+
+.tablecontent ul li {
+    list-style-position: inside;
+    line-height: 35px;
+    margin: 0px 12px;
+}
+
+.tablecontent .view {
+    float: right;
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.tablecontent1 {
+    width: 300px;
+    height: 400px;
+    border: 2px solid orange;
+    margin: 40px 10px;
+}
+
+.tablecontent1 h2 {
+    color: white;
+    background-color: #ab183d;
+    text-align: center;
+}
+
+.tablecontent1 ul li {
+    list-style-position: inside;
+    line-height: 35px;
+    margin: 0px 12px;
+}
+
+.tablecontent1 .view {
+    float: right;
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.tablecontent2 {
+    width: 300px;
+    height: 900px;
+    border: 2px solid orange;
+    margin: 40px 10px;
+}
+
+.tablecontent2 h2 {
+    color: white;
+    background-color: #ab183d;
+    text-align: center;
+}
+
+.tablecontent2 ul li {
+    list-style-position: inside;
+    line-height: 35px;
+    margin: 0px 12px;
+}
+
+.tablecontent2 .view {
+    float: right;
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.footer {
+    height: 400px;
+    width: 950px;
+    border: 3px solid orange;
+    margin: auto;
+}
+
+.footer h2 {
+    color: white;
+    background-color: #ab183d;
+    text-align: center;
+}

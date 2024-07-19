@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Poppins';
+    font-family: 'Arial';
 }
 
 .header {
@@ -176,8 +176,8 @@ body {
 }
 
 .footer {
-    height: 400px;
-    width: 950px;
+    height: 5660px;
+    width: 1010px;
     border: 3px solid orange;
     margin: auto;
 }
@@ -186,4 +186,46 @@ body {
     color: white;
     background-color: #ab183d;
     text-align: center;
+    margin: 20px 0px;
+}
+
+.footer p {
+    text-align: center;
+    margin: 30px 20px;
+}
+
+.inside p {
+    text-align: left;
+}
+
+.inside ul li {
+    list-style-position: inside;
+    margin: 0px 20px;
+}
+
+.footer h4 {
+    margin: 10px 20px;
+}
+
+.footer ul li {
+    list-style-position: inside;
+    margin: 0px 20px;
+}
+
+footer {
+    display: flex;
+    margin: 30px 200px;
+    gap: 100px;
+}
+
+footer h4 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+footer ul li {
+    list-style: none;
+    font-size: 13px;
+    color: gray;
+    padding-top: 10px;
 }

@@ -75,7 +75,7 @@ body {
 .mainbox {
     height: 180px;
     width: 1050px;
-    margin: 0 auto;
+    margin: 0px auto;
     display: flex;
     flex-wrap: wrap;
 }

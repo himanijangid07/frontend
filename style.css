@@ -37,7 +37,7 @@ body {
     height: 50px;
     width: 1010px;
     margin: 0 auto;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .navbar a {
@@ -48,7 +48,7 @@ body {
 .navicon a {
     color: white;
     text-decoration: none;
-    padding: 17px 10px;
+    padding: 17px 15px;
 }
 
 .navicon a:hover {
@@ -114,6 +114,11 @@ body {
     list-style-position: inside;
     line-height: 35px;
     margin: 0px 12px;
+    color: blue;
+}
+
+.tablecontent ul li a {
+    color: blue;
 }
 
 .tablecontent .view {
@@ -142,6 +147,11 @@ body {
     list-style-position: inside;
     line-height: 35px;
     margin: 0px 12px;
+    color: blue;
+}
+
+.tablecontent1 ul li a {
+    color: blue;
 }
 
 .tablecontent1 .view {
@@ -170,6 +180,11 @@ body {
     list-style-position: inside;
     line-height: 35px;
     margin: 0px 12px;
+    color: blue;
+}
+
+.tablecontent2 ul li a {
+    color: blue;
 }
 
 .tablecontent2 .view {
@@ -216,6 +231,10 @@ body {
 .footer ul li {
     list-style-position: inside;
     margin: 0px 20px;
+}
+
+.footer a {
+    color: blue;
 }
 
 footer {

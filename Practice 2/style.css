@@ -72,7 +72,7 @@ table {
 } */
 
 .header {
-    height: 200px;
+    height: 180px;
     width: 995px;
     border: none;
     background-color: #ab183d;
@@ -81,7 +81,7 @@ table {
 }
 
 .header img {
-    padding: 25px;
+    padding: 19px;
 }
 
 .header h1 {

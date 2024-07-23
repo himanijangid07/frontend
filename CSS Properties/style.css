@@ -2,5 +2,32 @@ img {
     position: absolute;
     left: 0px;
     top: 0px;
-    z-index: -1;
+    z-index: -1; /* it is used to place element one above another */
+    opacity: 0.5;
+}
+
+.a {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid;
+    /* overflow: visible; /* the content is now visible which is outside the div element */
+    /* overflow: hidden; it hides the content which is outside the div */
+    /* overflow: scroll; it is used to make a scroll for a div */
+}
+
+.b {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: width 2s, height 2s;
+    -webkit-transition: width 2s, height 2s;
+    -moz-transition: width 2s, height 2s;
+    -ms-transition: width 2s, height 2s;
+    -o-transition: width 2s, height 2s;
+}
+
+.b:hover {
+    width: 200px;
+    height: 200px;
 }

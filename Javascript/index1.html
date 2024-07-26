@@ -4,42 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- <style>
+        input {
+            width: 20%;
+            height: 20px;
+        }
+        button {
+            margin: 20px;
+            height: 30px;
+            cursor: pointer;
+        }
+    </style> -->
 </head>
 <body>
     <!-- if-else statement -->
-     <form action="">
-        <input type="number" placeholder="enter first number" id="input1">
-        <button onclick="even()">Check Even or Odd</button>
-     </form>
-     <h2 id="heading"></h2>
+    <!-- <input type="number" placeholder="enter first number" id="input1">
+    <br>
+    <button onclick="even()">Check Even or Odd</button>
+    <h2 id="heading"></h2> -->
+    <button onclick="on()">Turn on</button>
+    <img src="images/bulboff.jpg" alt="" width="200px" height="250px" id="image">
+    <button onclick="off()">Turn off</button>
      <script>
-        let a = 30;
-        let b = 20;
-        if(false){
-            console.log("a is greater");
-            console.log('hi'); // it will pridevice-widthnt because by default if only takes one line after it if the brackets are not present
-        }
-        else {
-            console.log("this is else block");
-        }
+        // let a = 30;
+        // let b = 20;
+        // if(false){
+           // console.log("a is greater");
+           // console.log('hi'); // it will pridevice-widthnt because by default if only takes one line after it if the brackets are not present
+        // }
+        // else {
+        //     console.log("this is else block");
+        // }
 
         //functions
-        abc();
-        function abc() {
-            console.log('hi this is inside a function');
-        }
+        // abc();
+        // function abc() {
+        //     console.log('hi this is inside a function');
+        // }
 
-        let num1 = document.getElementById("input1");
-        let head = document.getElementById("heading");
+        // let num1 = document.getElementById("input1");
+        // let head = document.getElementById("heading");
 
-        function even() {
-        let c = parseInt(num1.value);
-        if(c%2==0) {
-            head.innerHTML = "even"
+        // function even() {
+        // let c = parseInt(num1.value);
+        // if(c%2==0) {
+        //     head.innerHTML = "even"
+        // }
+        // else {
+        //     head.innerHTML = "odd"
+        // }pointer
+        // }
+
+        //arrow function
+        // let abc=()=>{
+        //     console.log('hi');
+        // }
+        // abc();
+        let img = document.getElementById("image");
+        function on() {
+            img.src = "images/bulbon.webp";
         }
-        else {
-            head.innerHTML = "odd"
-        }
+        function off() {
+            img.src = "images/bulboff.jpg";
         }
      </script>
 </body>

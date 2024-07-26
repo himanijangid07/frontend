@@ -60,10 +60,10 @@ let f = document.getElementById("first");
 let s = document.getElementById("second");
 let head = document.getElementById("h2")
 
+function addnum() {
+
 let num1 = parseInt(f.value);
 let num2 = parseInt(s.value);
-
-function addnum() {
    let sum = num1 + num2;
-   console.log(sum);
+   head.innerHTML = `sum is ${sum}`;
 }

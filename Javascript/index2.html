@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: aqua;
+        }
+        button {
+            height: 30px;
+            width: 10%;
+            border: 1px solid black;
+            border-radius: 10px;
+            cursor: pointer;
+            color: white;
+            background-color: black;
+            font-weight: bold;
+            margin: 150px;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="makeRed()">Red</button>
+    <button onclick="makeBlue()">Blue</button>
+    <button onclick="makeGreen()">Green</button>
+    <script>
+        function makeRed() {
+            document.body.style.backgroundColor = "Red";
+        }
+        function makeBlue() {
+            document.body.style.backgroundColor = "Blue";
+        }
+        function makeGreen() {
+            document.body.style.backgroundColor = "Green";
+        }
+    </script>
+</body>
+</html>

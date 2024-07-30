@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //map in array
+        let arr = [1,2,3,4,5,6,7];
+        arr.forEach((element, index) => { //for each never returns anything
+            console.log(`${element} at index ${index}`);
+        });
+        let c = arr.map((a,b,g)=> { //map function returns things
+            return a+5;
+        });
+        console.log(c);
+    </script>
+</body>
+</html>

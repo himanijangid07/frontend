@@ -12,10 +12,37 @@
         arr.forEach((element, index) => { //for each never returns anything
             console.log(`${element} at index ${index}`);
         });
+
         let c = arr.map((a,b,g)=> { //map function returns things
             return a+5;
         });
         console.log(c);
+        arr.map(abc);
+
+        function abc(a) { //it will print the elements of the array
+            console.log(a);
+        }
+
+        function abc(a,b) { //it will print the element and index of the array
+            console.log(a,b);
+        }
+
+        arr.push(100); //it will add the element at the end of the array
+        console.log(arr);
+
+        arr.pop(); //it will delete the element from the end
+        console.log(arr);
+
+        let a = arr.slice(0,4); //it will print the elements which are given in the brackets such as the starting number will be included and the ending number will be excluded
+        console.log(a);
+
+        a = arr.splice(2,6); //it will only print the elements which are given in the brackets and changes the original array including both the numbers
+        console.log(a);
+
+        const fruits = ["Apple", "Banana", "Cherry", "Date", "Eggplant"]
+
+        fruits.splice(2,0,"Mango","Kiwi"); //it will add the mango and kiwi from the position 2
+        console.log(fruits);
     </script>
 </body>
 </html>

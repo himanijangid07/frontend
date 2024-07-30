@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr = [11,2,35,63,102,59,96,84];
+        let max = arr[0];
+        let min = arr[0];
+        for (item of arr) {
+            if(item > max) {
+                max = item;
+            }
+            if(item < min) {
+                min = item;
+            }
+        }
+        console.log(arr);
+        console.log(`maximum element is ${max}`);
+        console.log(`minimum element is ${min}`);
+        
+        //for ascending and descending
+        function sortArrAsc() {
+            let len = arr.length;
+            for(let i = 0; i<len-1; i++) {
+                for(let j = 0; j<len-1-i; j++) {
+                    if(arr[j] > arr[j+1]) {
+                        let temp = arr[j];
+                        arr[j] = arr[j+1];
+                        arr[j+1] = temp;
+                    }
+                }
+            }
+        }
+        function sortArrDesc() {
+            let len = arr.length;
+            for(let i = 0; i<len -1; i++) {
+                for(let j = 0; j<len-1-i; j++) {
+                    if(arr[j+1] > arr[j]) {
+                        let temp = arr[j];
+                        arr[j] = arr[j+1];
+                        arr[j+1] = temp;
+                    }
+                }
+            }
+        }
+        sortArrAsc(arr);
+        console.log(arr);
+        sortArrDesc(arr);
+        console.log(arr);
+    </script>
+</body>
+</html>

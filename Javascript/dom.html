@@ -11,10 +11,22 @@
     <div class="example">ELement3</div>
     <div class="example">ELement4</div>
 
+    <p>An unordered list: </p>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    <p id="Demo"></p>
+
     <script>
         let collection = document.getElementsByClassName("example");
         collection[0].innerHTML = "Hello himani";
         collection[2].innerHTML = "Hello sweetu";
+
+        collection = document.getElementsByTagName("li");
+        let para = document.getElementById("Demo");
+        para = collection[0].innerHTML;
     </script>
 </body>
 </html>

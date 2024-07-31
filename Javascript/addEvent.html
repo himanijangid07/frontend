@@ -6,16 +6,57 @@
     <title>Document</title>
 </head>
 <body>
-    <button id="myBtn">Try it</button>
+    <!-- <button id="myBtn">Try it</button>
+    <p id="demo"></p> -->
     <p id="demo"></p>
 
     <script>
-        const element = document.getElementById("myBtn");
-        element.addEventListener("click", myFunction);
+        // const element = document.getElementById("myBtn");
+        // element.addEventListener("click", myFunction);
 
-        function myFunction() {
-            document.getElementById("demo").innerHTML = "himani";
+        // function myFunction() {
+        //     document.getElementById("demo").innerHTML = "himani";
+        // }
+
+        //object
+        // let a = {
+        //     key:"abc",
+        //     value:"yt",
+        //     key:"xyz"
+        // }
+
+        // let objectname = {
+
+        // }
+        // console.log(a.key);
+
+        // let objectname1 = {
+        //     abc:()=> {
+        //         console.log("hiiiiii");
+        //     }
+        // }
+        // console.log(objectname1.abc());
+        // console.log(objectname1);
+
+        // const car = {
+        //     type: "TATA",
+        //     model: "Harrier",
+        //     color: "Black",
+        //     sdf: ()=>{
+        //         console.log("sweetu");
+        //     }
+        // }
+        // document.getElementById("demo").innerHTML = "The car type is " + car.type + " in the model " + car.model + " in " + car.color + " color.";
+        // car.sdf();
+
+        const person = {fname:"John", lname:"Doe", age:25}; 
+
+        let txt = "";
+        for (let x in person) {
+            txt += person[x] + " ";
         }
+
+        document.getElementById("demo").innerHTML = txt;
     </script>
 </body>
 </html>

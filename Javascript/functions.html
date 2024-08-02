@@ -7,6 +7,7 @@
 </head>
 <body>
     <p id="demo"></p>
+    <button onclick="myfunction()">Try it</button>
     <script>
         // const abc = [1,2,3,4,5,6];
         // function ab(a,b,c, ...num2) {
@@ -23,15 +24,71 @@
         // }
         // ab(...abc);
 
-        const person = {
-            firstName: "Himani",
-            lastName: "Jangid",
-            age: 20
-        };
+        // const person = {
+        //     firstName: "Himani",
+        //     lastName: "Jangid",
+        //     age: 20
+        // };
 
-        let {firstName, lastName} = person;
+        // let {firstName, lastName} = person;
 
-        document.getElementById("demo").innerHTML = firstName + " " + lastName;
+        // document.getElementById("demo").innerHTML = firstName + " " + lastName;
+
+        // let num = [1,2,3,4,5];
+
+        // let {a1, a2, a3, a4, a5} = num;
+
+        // document.getElementById("demo") = typeof(a1);
+
+        // closure
+
+        // function ab() {
+        //     let asd = 10;
+            
+        //     function ab1() {
+        //         console.log(asd);
+        //     }
+
+        //     return ab1;
+        // }
+
+        // let closure1 = ab();
+        // closure1();
+
+        // function abc() {
+        //     let counting = 0;
+        //     return {
+        //         incre:function(){
+        //             counting++;
+        //             console.log(counting);
+        //         },
+        //         decre:function() {
+        //             counting--;
+        //             console.log(counting);
+        //         }
+        //     }
+        // }
+        // let w = abc();
+        // w.incre();
+        // w.incre();
+        // w.incre();
+        // w.decre();
+        // w.decre();
+
+        // let timeout;
+
+        // function myfunction() {
+        //     timeout = setTimeout(alertFunc, 3000);
+        // }
+
+        // function alertFunc() {
+        //     alert("Hello");
+        // }
+
+        let p = new Promise((resolve, reject) => {
+            // resolve("hello");
+            reject("something went wrong");
+        })
     </script>
 </body>
 </html>

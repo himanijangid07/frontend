@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">Promise</button>
+    <button id="btn2">Cancel</button>
+    <script>
+        const btn = document.getElementById("btn");
+        const btn2 = document.getElementById("btn2");
+        let a = new Promise((r,e) => {
+            btn.addEventListener("click", ()=> {
+                r("executed");
+            });
+            btn2.addEventListener("click", ()=>{
+                e("failed");
+        })
+            //e("promise rejected");
+        })
+
+        a.then((ab) => {
+            console.log(ab);
+        }).catch((pq) => {
+            console.log(pq);
+        }).finally((a)=>{
+            console.log("finally");
+        })
+    </script>
+</body>
+</html>

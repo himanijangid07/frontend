@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+    margin-top: 36px;
+}
+
+.box {
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    width: 348px;
+    position: relative;
+    height: 450px;
+}
+
+.box img {
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+
+.box input {
+    height: 38px;
+    width: 265px;
+    margin-bottom: 6px;
+    background-color: #f8f8f8;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.box input::placeholder {
+    padding: 6px;
+}
+
+.box button {
+    width: 266px;
+    height: 32px;
+    margin-top: 8px;
+    background-color: #4cb5f9;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    font-weight: bold;
+}
+
+.box p {
+    padding-top: 25px;
+    color: #414141;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.box p::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background: #dbdbdb;
+    top: 64%;
+    left: 14%;
+}
+
+.box p::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background: #dbdbdb;
+    top: 64%;
+    left: 56%;
+}
+
+.box a {
+    color: #385185;
+    text-decoration: none;
+}
+
+.low {
+    width: 348px;
+    height: 61px;
+    border: 1px solid #dbdbdb;
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.app {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.app p {
+    margin-bottom: 20px;
+}
+
+.links {
+    margin-top: 5cqmin;
+}
+
+.links ul li a{
+    color: rgb(115, 115, 115);
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.links ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 10px;
+}
+
+.copy {
+    display: flex;
+    font-size: 12px;
+    color: rgb(115, 115, 115);
+}
+
+.copy p {
+    text-align: center;
+}

@@ -120,14 +120,44 @@
   </div> -->
 
   <!-- <button type="button" class="btn btn-danger">Sweetu</button> -->
+
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-4 bg-primary text-center p-5">
+            <p>Himani</p>
+        </div>
+        <div class="col-lg-4 bg-primary text-center p-5">
+            <p>Vishal</p>
+        </div>
+        <div class="col-lg-4 bg-primary text-center p-5">
+            <p>Raghav</p>
+        </div>
+    </div>
+  </div>
    <script>
-    function volume(l, b, h) {
-        return l*b*h;
-    }
-    console.log(volume(1,2,3));
-    arr = ["apple", "banana"];
-    arr.slice(2, "litchi");
-    console.log(arr);
+    // function volume(l, b, h) {
+    //     return l*b*h;
+    // }
+    // console.log(volume(1,2,3));
+    // arr = ["apple", "banana"];
+    // arr.slice(2, "litchi");
+    // console.log(arr);
+
+    // function add(a) {
+    //     return function(b) {
+    //         return a + b;
+    //     };
+    // }
+    // console.log(add(2)(3));
+
+    const person = {
+  firstName: "John",
+  lastName : "Doe",
+  id       : 5566,
+  fullName : function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
    </script>
 </body>
 </html>
